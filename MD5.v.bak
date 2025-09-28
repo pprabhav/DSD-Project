@@ -1,0 +1,8 @@
+module MD5(
+	input reg[511:0] message,
+	input wire clk,
+	input wire reset,
+	input wire start,
+	output reg[127:0] digest,
+	output wire done);
+	
